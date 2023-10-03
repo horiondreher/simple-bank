@@ -1,4 +1,4 @@
-module github.com/horiondreher/simplebank
+module github.com/horiondreher/simple_bank
 
 go 1.20
 

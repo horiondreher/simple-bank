@@ -1,1 +1,1 @@
-package simplebank
+package simple_bank
