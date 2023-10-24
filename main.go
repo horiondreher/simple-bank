@@ -6,9 +6,9 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/horiondreher/simple_bank/api"
-	db "github.com/horiondreher/simple_bank/db/sqlc"
-	"github.com/horiondreher/simple_bank/util"
+	"github.com/horiondreher/simple-bank/api"
+	db "github.com/horiondreher/simple-bank/db/sqlc"
+	"github.com/horiondreher/simple-bank/util"
 )
 
 func main() {

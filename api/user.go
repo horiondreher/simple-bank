@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	db "github.com/horiondreher/simple_bank/db/sqlc"
-	"github.com/horiondreher/simple_bank/util"
+	db "github.com/horiondreher/simple-bank/db/sqlc"
+	"github.com/horiondreher/simple-bank/util"
 	"github.com/lib/pq"
 )
 

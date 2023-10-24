@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
-	db "github.com/horiondreher/simple_bank/db/sqlc"
+	db "github.com/horiondreher/simple-bank/db/sqlc"
 )
 
 type Server struct {

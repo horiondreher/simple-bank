@@ -4,7 +4,7 @@ import "github.com/spf13/viper"
 
 type Config struct {
 	DBDriver      string `mapstructure:"DB_DRIVER" default:"postgres"`
-	DBSource      string `mapstructure:"DB_SOURCE" default:"postgresql://pguser:pgpassword@localhost:5432/simple_bank?sslmode=disable"`
+	DBSource      string `mapstructure:"DB_SOURCE" default:"postgresql://pguser:pgpassword@localhost:5432/simple-bank?sslmode=disable"`
 	ServerAddress string `mapstructure:"SERVER_ADDRESS" default:"localhost:8080"`
 }
 
