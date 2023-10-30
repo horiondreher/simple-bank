@@ -1,4 +1,4 @@
-name: Run unit tests
+name: Deploy to production
 
 on:
   push:
@@ -12,8 +12,9 @@ jobs:
       id-token: write
       contents: read
     steps:
-    - uses: actions/checkout@v4
-    
+    - name: Checkout code
+      uses: actions/checkout@v4
+
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:
@@ -32,4 +33,3 @@ jobs:
       run: |
         docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
-        1b511abead59c6ce207077c0bf0e0043b1382612
